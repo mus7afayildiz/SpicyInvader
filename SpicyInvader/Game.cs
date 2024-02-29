@@ -15,8 +15,10 @@ namespace SpicyInvader
     {
         static int playerPositionX;
         static int playerPositionY;
+        static List<Enemy> enemies;
         static List<Bullet> playerBullets;
         public bool isGameOver = false;
+        static int score = 0;
 
         /// <summary>
         /// Le jeu est initialisé
@@ -46,11 +48,39 @@ namespace SpicyInvader
                 Console.Write("|");
             }
 
-            // Draw enemies
+
+
+            // Draw enemies     
+            for (int i = 0; i < 20; i++)
+            {
+                Console.SetCursorPosition(i * 4, 1);
+                Console.WriteLine("  _  ");
+                Console.SetCursorPosition(i * 4, 2);
+                Console.WriteLine("(¤ ¤)");
+                Console.SetCursorPosition(i * 4, 3);
+                Console.WriteLine(" /-\\ ");
+
+                Console.SetCursorPosition(i * 4, 5);
+                Console.WriteLine(" ì__í");
+                Console.SetCursorPosition(i * 4, 6);
+                Console.WriteLine("(¤)(¤)");
+                Console.SetCursorPosition(i * 4, 7);
+                Console.WriteLine(" /  \\");
+
+                Console.SetCursorPosition(i * 4, 9);
+                Console.WriteLine("  _  ");
+                Console.SetCursorPosition(i * 4, 10);
+                Console.WriteLine("(O O)");
+                Console.SetCursorPosition(i * 4, 11);
+                Console.WriteLine(" |||");
+                i++;
+            }
+
+            // Draw 
+
+            // Draw score
             Console.SetCursorPosition(0, 0);
-            Console.WriteLine("  _  ");
-            Console.WriteLine("(¤ ¤)");
-            Console.WriteLine("  M  ");
+            Console.Write("Score: " + score);
         }
 
         /// <summary>
@@ -103,7 +133,21 @@ namespace SpicyInvader
             playerBullets.RemoveAll(bullet => bullet.Y <= 0);
         }
 
+        class Enemy
+        {
+            public int X { get; private set; }
+            public int Y { get; private set; }
+            public List<Bullet> Bullets { get; private set; }
 
+            public Enemy(int x, int y)
+            {
+                X = x;
+                Y = y;
+                Bullets = new List<Bullet>();
+            }
+
+
+        }
 
         class Bullet
         {

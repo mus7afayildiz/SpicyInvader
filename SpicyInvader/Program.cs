@@ -30,9 +30,6 @@ namespace SpicyInvader
             TimeSpan interval = new TimeSpan(0, 0, 1);
             ShowEnemy1();
 
-
-
-
             void ShowEnemy1()
             {
                 Console.SetCursorPosition(10, 5);
