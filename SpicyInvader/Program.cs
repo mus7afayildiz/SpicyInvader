@@ -18,8 +18,8 @@ namespace SpicyInvader
         {
             Game game = new Game();
 
-            Console.SetWindowSize(80, 25);
-            Console.SetBufferSize(80, 25);
+            Console.SetWindowSize(100, 40);
+            Console.SetBufferSize(100, 40);
             Console.CursorVisible = false;
 
             game.InitializeGame();
@@ -27,71 +27,16 @@ namespace SpicyInvader
             Thread inputThread = new Thread(game.MovePlayer);
             inputThread.Start();           
 
-            TimeSpan interval = new TimeSpan(0, 0, 1);
-            ShowEnemy1();
+            TimeSpan interval = new TimeSpan(0, 0, 100);
 
-            void ShowEnemy1()
-            {
-                Console.SetCursorPosition(10, 5);
-                Console.WriteLine(" ì__í");
-                Console.WriteLine("(¤)(¤)");
-                Console.WriteLine(" / /");
-
-                for (int i = 0; i < 100; i++)
-                {
-                    
-                 //   Thread.Sleep(interval);
-                 //  Console.Clear();
-                    /*
-                    Console.WriteLine(" ì__í");
-                    Console.WriteLine("[o][o]");
-                    Console.WriteLine(" |  |");                  
-                    Thread.Sleep(interval);
-                    Console.Clear(); */
-                }             
-            }
 
             while (!game.isGameOver)
             {           
                 game.Update();
-                Thread.Sleep(100);
+                Thread.Sleep(10);
             }
 
-            void ShowEnemy2()
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    Console.WriteLine("  _  ");
-                    Console.WriteLine("(¤ ¤)");
-                    Console.WriteLine("  M  ");
-                    Thread.Sleep(interval);
-                    Console.Clear();
 
-                    Console.WriteLine("  _  ");
-                    Console.WriteLine("(O O)");
-                    Console.WriteLine(" |||");
-                    Thread.Sleep(interval);
-                    Console.Clear();
-                }
-            }
-
-            void ShowEnemy3()
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    Console.WriteLine(" ◄ ► ");
-                    Console.WriteLine("(. .)");
-                    Console.WriteLine(" \\\\");
-                    Thread.Sleep(interval);
-                    Console.Clear();
-
-                    Console.WriteLine(" ◄_►  ");
-                    Console.WriteLine("(O O)┘");
-                    Console.WriteLine(" ╔ ╗");
-                    Thread.Sleep(interval);
-                    Console.Clear();
-                }
-            }      
 
         }
     }

@@ -26,8 +26,18 @@ namespace SpicyInvader
         public void InitializeGame()
         {
             playerPositionX = Console.WindowWidth / 2;
-            playerPositionY = Console.WindowHeight - 1;
+            playerPositionY = Console.WindowHeight - 3;
             playerBullets = new List<Bullet>();
+            enemies = new List<Enemy>();
+
+            // Ajouter des ennemis
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    enemies.Add(new Enemy(j * 5, i * 2));
+                }
+            }
         }
 
         /// <summary>
@@ -35,7 +45,7 @@ namespace SpicyInvader
         /// </summary>
         static void Draw()
         {
-            Console.Clear();
+            // Console.Clear();
 
             // Designer le jouer
             Console.SetCursorPosition(playerPositionX, playerPositionY);
@@ -48,39 +58,58 @@ namespace SpicyInvader
                 Console.Write("|");
             }
 
-
-
             // Draw enemies     
-            for (int i = 0; i < 20; i++)
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    Console.SetCursorPosition(i * 4, 1);
+            //    Console.WriteLine("  _  ");
+            //    Console.SetCursorPosition(i * 4, 2);
+            //    Console.WriteLine("(¤ ¤)");
+            //    Console.SetCursorPosition(i * 4, 3);
+            //    Console.WriteLine(" /-\\ ");
+
+            //    Console.SetCursorPosition(i * 4, 5);
+            //    Console.WriteLine(" ì__í");
+            //    Console.SetCursorPosition(i * 4, 6);
+            //    Console.WriteLine("(¤)(¤)");
+            //    Console.SetCursorPosition(i * 4, 7);
+            //    Console.WriteLine(" /  \\");
+
+            //    Console.SetCursorPosition(i * 4, 9);
+            //    Console.WriteLine("  _  ");
+            //    Console.SetCursorPosition(i * 4, 10);
+            //    Console.WriteLine("(O O)");
+            //    Console.SetCursorPosition(i * 4, 11);
+            //    Console.WriteLine(" ||| ");
+            //    i++;
+            //}
+
+            // Dessiner des ennemis
+            foreach (Enemy enemy in enemies)
             {
-                Console.SetCursorPosition(i * 4, 1);
+                Console.SetCursorPosition(enemy.X+1, enemy.Y);
                 Console.WriteLine("  _  ");
-                Console.SetCursorPosition(i * 4, 2);
-                Console.WriteLine("(¤ ¤)");
-                Console.SetCursorPosition(i * 4, 3);
-                Console.WriteLine(" /-\\ ");
-
-                Console.SetCursorPosition(i * 4, 5);
-                Console.WriteLine(" ì__í");
-                Console.SetCursorPosition(i * 4, 6);
-                Console.WriteLine("(¤)(¤)");
-                Console.SetCursorPosition(i * 4, 7);
-                Console.WriteLine(" /  \\");
-
-                Console.SetCursorPosition(i * 4, 9);
-                Console.WriteLine("  _  ");
-                Console.SetCursorPosition(i * 4, 10);
+                Console.SetCursorPosition(enemy.X, enemy.Y+1);
                 Console.WriteLine("(O O)");
-                Console.SetCursorPosition(i * 4, 11);
-                Console.WriteLine(" |||");
-                i++;
+                Console.SetCursorPosition(enemy.X, enemy.Y+2);
+                Console.WriteLine(" ||| ");
+                
             }
 
-            // Draw 
 
-            // Draw score
-            Console.SetCursorPosition(0, 0);
+            // tirage au sort
+            Console.SetCursorPosition(1, Console.WindowHeight-1);
             Console.Write("Score: " + score);
+
+            // Dessiner des barrières
+            Console.SetCursorPosition(10, 30);
+            Console.Write("§§§§§§§§§§§§§§§§§§");
+
+            Console.SetCursorPosition(40, 30);
+            Console.Write("§§§§§§§§§§§§§§§§§§");
+
+            Console.SetCursorPosition(70, 30);
+            Console.Write("§§§§§§§§§§§§§§§§§§");
         }
 
         /// <summary>
@@ -104,7 +133,7 @@ namespace SpicyInvader
         }
 
         /// <summary>
-        /// 
+        /// ça permet de tirer
         /// </summary>
         static void Fire()
         {
@@ -116,6 +145,7 @@ namespace SpicyInvader
         /// </summary>
         public void Update()
         {
+            CheckCollision();
             MovePlayerBullets();
             Draw();
         }
@@ -129,40 +159,27 @@ namespace SpicyInvader
             {
                 bullet.MoveUp();
             }
-            // Remove bullets that are out of bounds
+
+            /// Supprimez les balles hors limites
             playerBullets.RemoveAll(bullet => bullet.Y <= 0);
         }
 
-        class Enemy
+        static void CheckCollision()
         {
-            public int X { get; private set; }
-            public int Y { get; private set; }
-            public List<Bullet> Bullets { get; private set; }
-
-            public Enemy(int x, int y)
+            /// Balle du joueur - collision ennemie
+            foreach (Bullet bullet in playerBullets)
             {
-                X = x;
-                Y = y;
-                Bullets = new List<Bullet>();
-            }
-
-
-        }
-
-        class Bullet
-        {
-            public int X { get; private set; }
-            public int Y { get; private set; }
-
-            public Bullet(int x, int y)
-            {
-                X = x;
-                Y = y;
-            }
-            public void MoveUp()
-            {
-                Y--;
-            }
+                foreach (Enemy enemy in enemies)
+                {
+                    if (bullet.X == enemy.X && bullet.Y == enemy.Y)
+                    {
+                        score++;
+                        enemies.Remove(enemy);
+                        playerBullets.Remove(bullet);
+                        return;
+                    }
+                }
+            }          
         }
 
 
