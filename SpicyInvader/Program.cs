@@ -33,7 +33,7 @@ namespace SpicyInvader
             while (!game.isGameOver)
             {           
                 game.Update();
-                Thread.Sleep(10);
+                Thread.Sleep(1);
             }
 
 

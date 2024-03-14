@@ -47,6 +47,13 @@ namespace SpicyInvader
         {
             // Console.Clear();
 
+            // Effacer l'écran en dessinant des espaces
+            for (int i = 0; i < Console.WindowHeight; i++)
+            {
+                Console.SetCursorPosition(0, i);
+                Console.Write(new string(' ', Console.WindowWidth));
+            }
+
             // Designer le jouer
             Console.SetCursorPosition(playerPositionX, playerPositionY);
             Console.Write(".<V>.");
@@ -56,6 +63,7 @@ namespace SpicyInvader
             {
                 Console.SetCursorPosition(bullet.X+2, bullet.Y);
                 Console.Write("|");
+                
             }
 
             // Draw enemies     
@@ -136,7 +144,7 @@ namespace SpicyInvader
         /// ça permet de tirer
         /// </summary>
         static void Fire()
-        {
+        {         
             playerBullets.Add(new Bullet(playerPositionX, playerPositionY - 1));
         }
 
