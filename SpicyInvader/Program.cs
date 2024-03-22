@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace SpicyInvader
 {
@@ -25,15 +26,15 @@ namespace SpicyInvader
             game.InitializeGame();
 
             Thread inputThread = new Thread(game.MovePlayer);
-            inputThread.Start();           
+            inputThread.Start();
 
-            TimeSpan interval = new TimeSpan(0, 0, 100);
+            ///TimeSpan interval = new TimeSpan(0, 0, 100);
 
 
             while (!game.isGameOver)
             {           
                 game.Update();
-                Thread.Sleep(1);
+                Task.Delay(20).Wait();
             }
 
 
