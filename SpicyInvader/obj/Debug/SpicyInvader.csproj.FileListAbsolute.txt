@@ -12,3 +12,4 @@ D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Inv
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.CoreCompileInputs.cache
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.exe
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.pdb
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.SuggestedBindingRedirects.cache

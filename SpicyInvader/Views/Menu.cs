@@ -179,7 +179,7 @@ namespace SpicyInvader.Views
         public void ShowHighScore()
         {
             //crée un tableau avec tout le contenu du fichier qui contient les résultat
-            string[] lines = System.IO.File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "result.txt");
+            string[] lines = System.IO.File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "D:/Leçons/Module4/Vendredi Après Midi Pra Prof PDev 226A-226B/projet/Spicy Invader/SpicyInvader/SpicyInvader/ressources/result.txt");
 
             int compteur = 0;
 
