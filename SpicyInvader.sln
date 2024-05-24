@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32630.192
+VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpicyInvader", "SpicyInvader\SpicyInvader.csproj", "{4F14D2D4-980F-4174-A58C-D7212C95207F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpicyInvader", "SpicyInvader\SpicyInvader.csproj", "{93E4436B-1B17-4AE6-B690-76272C1DB263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F14D2D4-980F-4174-A58C-D7212C95207F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F14D2D4-980F-4174-A58C-D7212C95207F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F14D2D4-980F-4174-A58C-D7212C95207F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F14D2D4-980F-4174-A58C-D7212C95207F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E4436B-1B17-4AE6-B690-76272C1DB263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E4436B-1B17-4AE6-B690-76272C1DB263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E4436B-1B17-4AE6-B690-76272C1DB263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E4436B-1B17-4AE6-B690-76272C1DB263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {40C7EAEF-24FA-4E73-839C-08CE7C36AAF7}
+		SolutionGuid = {C049702A-B737-4F22-A0DD-E1CAFA2E5E0C}
 	EndGlobalSection
 EndGlobal

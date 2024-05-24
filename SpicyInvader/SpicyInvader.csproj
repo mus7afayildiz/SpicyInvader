@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F14D2D4-980F-4174-A58C-D7212C95207F}</ProjectGuid>
+    <ProjectGuid>{93E4436B-1B17-4AE6-B690-76272C1DB263}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>SpicyInvader</RootNamespace>
     <AssemblyName>SpicyInvader</AssemblyName>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,16 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BalleQuiTombe.cs" />
-    <Compile Include="Bullet.cs" />
-    <Compile Include="Enemy.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="GameObject.cs" />
+    <Compile Include="Controllers\Game.cs" />
+    <Compile Include="Models\Alien.cs" />
+    <Compile Include="Models\Entity.cs" />
+    <Compile Include="Models\Laser.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Wall.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ressources\result.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

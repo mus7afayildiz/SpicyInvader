@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\",
+  "WorkspaceRootPath": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\spicyinvader\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|d:\\le\u00E7ons\\module4\\vendredi apr\u00E8s midi pra prof pdev 226a-226b\\projet\\spicy invader\\spicyinvader\\spicyinvader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|d:\\le\u00E7ons\\module4\\vendredi apr\u00E8s midi pra prof pdev 226a-226b\\projet\\spicy invader\\newprojet\\spicyinvader\\spicyinvader\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|d:\\le\u00E7ons\\module4\\vendredi apr\u00E8s midi pra prof pdev 226a-226b\\projet\\spicy invader\\spicyinvader\\spicyinvader\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\models\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\models\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\spicyinvader\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F14D2D4-980F-4174-A58C-D7212C95207F}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\controllers\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\controllers\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\models\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\models\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\models\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\models\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\spicyinvader\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E4436B-1B17-4AE6-B690-76272C1DB263}|SpicyInvader\\SpicyInvader.csproj|solutionrelative:spicyinvader\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,65 +41,105 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Enemy.cs",
-              "RelativeDocumentMoniker": "SpicyInvader\\Enemy.cs",
-              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Enemy.cs",
-              "RelativeToolTip": "SpicyInvader\\Enemy.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA9wC8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T12:13:09.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Bullet.cs",
-              "RelativeDocumentMoniker": "SpicyInvader\\Bullet.cs",
-              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Bullet.cs",
-              "RelativeToolTip": "SpicyInvader\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T12:13:09.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Program.cs",
-              "RelativeDocumentMoniker": "SpicyInvader\\Program.cs",
-              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Program.cs",
-              "RelativeToolTip": "SpicyInvader\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T12:13:10.086Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 185,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Game.cs",
-              "RelativeDocumentMoniker": "SpicyInvader\\Game.cs",
-              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\SpicyInvader\\SpicyInvader\\Game.cs",
-              "RelativeToolTip": "SpicyInvader\\Game.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAAAAANUAAAANAAAA",
+              "Title": "Wall.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Wall.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Models\\Wall.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Wall.cs",
+              "RelativeToolTip": "SpicyInvader\\Models\\Wall.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAQAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T12:13:10.162Z",
+              "WhenOpened": "2024-05-23T06:43:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Alien.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Alien.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Models\\Alien.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Alien.cs",
+              "RelativeToolTip": "SpicyInvader\\Models\\Alien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T06:20:22.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Controllers\\Game.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Controllers\\Game.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Controllers\\Game.cs",
+              "RelativeToolTip": "SpicyInvader\\Controllers\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:11:41.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Laser.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Laser.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Models\\Laser.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Laser.cs",
+              "RelativeToolTip": "SpicyInvader\\Models\\Laser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:09:00.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Models\\Player.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Player.cs",
+              "RelativeToolTip": "SpicyInvader\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:08:00.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Models\\Entity.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Models\\Entity.cs",
+              "RelativeToolTip": "SpicyInvader\\Models\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:06:06.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Views\\Menu.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Views\\Menu.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Views\\Menu.cs",
+              "RelativeToolTip": "SpicyInvader\\Views\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:29:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Program.cs",
+              "RelativeDocumentMoniker": "SpicyInvader\\Program.cs",
+              "ToolTip": "D:\\Le\u00E7ons\\Module4\\Vendredi Apr\u00E8s Midi Pra Prof PDev 226A-226B\\projet\\Spicy Invader\\newProjet\\SpicyInvader\\SpicyInvader\\Program.cs",
+              "RelativeToolTip": "SpicyInvader\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:02:52.665Z",
               "EditorCaption": ""
             }
           ]

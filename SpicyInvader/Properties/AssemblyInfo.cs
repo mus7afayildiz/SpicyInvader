@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SpicyInvader")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DGEP")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SpicyInvader")]
-[assembly: AssemblyCopyright("Copyright © DGEP 2024")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("4f14d2d4-980f-4174-a58c-d7212c95207f")]
+[assembly: Guid("93e4436b-1b17-4ae6-b690-76272c1db263")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

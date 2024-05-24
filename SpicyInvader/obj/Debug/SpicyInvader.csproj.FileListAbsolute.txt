@@ -1,11 +1,10 @@
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe.config
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.pdb
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.AssemblyReference.cache
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.SuggestedBindingRedirects.cache
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.CoreCompileInputs.cache
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.exe
-D:\Leçons\Module3\Jeudi Après-Midi Pra Prof Chaneux P\projet\Spicy Invader\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.pdb
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe.config
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.pdb
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.AssemblyReference.cache
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.csproj.CoreCompileInputs.cache
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.exe
+D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\newProjet\SpicyInvader\SpicyInvader\obj\Debug\SpicyInvader.pdb
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe.config
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.exe
 D:\Leçons\Module4\Vendredi Après Midi Pra Prof PDev 226A-226B\projet\Spicy Invader\SpicyInvader\SpicyInvader\bin\Debug\SpicyInvader.pdb
